@@ -39,7 +39,7 @@ body {
     border-top-right-radius: 90px;
 }
 
-#spooky #body::before,
+#spooky #body:before,
 #spooky #body:after {
     content: '';
     position: absolute;
@@ -106,7 +106,7 @@ body {
 }
 
 #spooky #body #feet>*,
-#spooky #body #feet ::before 
+#spooky #body #feet :before 
 #spooky #body #feet ::after {
     content: '';
     width: 36px;
